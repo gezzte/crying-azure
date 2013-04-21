@@ -87,7 +87,7 @@ header a img{
 	border-radius: 10px;
 	margin: 0 0 15px 0;
 	box-shadow: 0 0 10px rgba(99, 69, 7, 0.25);
-	border: rgba(99, 69, 7, 0.65) 1px solid;
+	border: 2px solid rgb(255, 196, 8);
 	color: #4F230E;
 	cursor: pointer;
 }
@@ -570,6 +570,28 @@ font-size: 26px;
 text-decoration: none;
 }
 
+.mega-menu{
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+-moz-box-shadow: 0px 0px 20px #c7c1c7;
+-webkit-box-shadow: 0px 0px 20px #c7c1c7;
+box-shadow: 0px 0px 20px #c7c1c7;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+background: rgb(76,166,220);
+width:110%;
+height: 40px;
+position:fixed;
+z-index: 9999999;
+}
+
+.divider-vertical {
+float: left;
+width: 1px;
+height: 40px;
+margin: 0 10px;
+background-color: #e5e5e5;
+border-right: 1px solid #fff;
+}
+
 .previewText{
 	padding: 10px;
 	text-align:justify;
@@ -701,11 +723,12 @@ border-radius:10px;
 {
 float:left;
 color:white;
-background-color: #94BFFF;
+background-color: #c6e7f0;
 margin-left: 1%;
-padding: 5px 1%;
+padding: 0px 1%;
 width:96%;
-border-radius:10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
 -moz-border-radius:25px; /* Old Firefox */
 -webkit-transition: all 1s ease;
 }
@@ -727,7 +750,7 @@ border-radius:10px;
 column-count:4;
 column-width: 250px;
 -moz-column-width: 250px;
--webkit-column-width: 250px;
+-webkit-column-width: 201px;
 
 }
 
@@ -768,19 +791,25 @@ border-radius:10px;
 .subjtitle
 {
 float:left;
-color:grey;
+color: white;
 text-decoration:none;
 font-weight: bold;
 font-size: 24px;
 text-align: center;
 background-color:white;
-padding-top: 15px;
-margin: 10px 1% 10px 1%;
-width:97%;
-height:50px;
-border-radius:10px;
--moz-border-radius:25px; /* Old Firefox */
+margin: 0% 1% 0px 1%;
+padding-top: 10px;
+width: 97.5%;
+height: 50px;
 -webkit-transition: all 1s ease;
+background-color: #FAA918;
+border: 2px solid rgb(255, 196, 8);
+-moz-border-radius: 35px;
+-webkit-border-top-left-radius: 35px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+box-shadow: 0px 0px 15px #FFFFFF;
 }
 
 a.selector, a.selector:link, a.selector:visited {
@@ -919,10 +948,11 @@ background-color: #66A3FF;
 float:left;
 color:white;
 background-color: #c6e7f0;
-margin: -6% 1% 5%;
+margin: 0% 1% 5%;
 padding: 0px 1%;
-width:96%;
-border-radius:10px;
+width: 96.2%;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
 -moz-border-radius:25px; /* Old Firefox */
 -webkit-transition: all 1s ease;
 }
@@ -962,8 +992,32 @@ padding: 8px 30px;
 min-width: 13px;
 }
 
+.searchtitle{
+float:left;
+color: white;
+text-decoration:none;
+font-weight: bold;
+font-size: 24px;
+text-align: center;
+background-color:white;
+margin: -4% 1% 0px 1%;
+padding-top: 0px;
+width: 97.7%;
+height: 78px;
+-webkit-transition: all 1s ease;
+background-color: #FAA918;
+border: 2px solid rgb(255, 196, 8);
+-moz-border-radius: 35px;
+-webkit-border-top-left-radius: 35px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+box-shadow: 0px 0px 15px #FFFFFF;
+}
+
 h1.searchbox{
 float:left;
+font-size: 32px;
 margin: 2.4% 24px 0 3%;
 }
 
