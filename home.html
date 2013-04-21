@@ -1,0 +1,139 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="css/main.css">
+<script type="text/javascript" src="js/main.js"></script>
+<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.10.2.custom.css" />
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/jquery-ui-1.10.2.custom.js"></script>
+<script>
+	$(document).ready(function(){
+  $("#selaectorTitleClassSD").click(function(){
+    $("#selaectorClassSD").toggle("slide", {
+        direction: 'up',
+        duration: 'slow',
+        easing: 'easeOutQuart'
+    },1000);
+  });
+});
+</script>
+</head>
+<body>
+	<div id="wrapper">
+    	<header>
+        	<a class="logo">
+            	<img src="img/logo2.png">
+            </a>
+            <div class="right_header">
+            	<div class="sign_in">
+                	<h5>Already memeber ? sign in</h5>
+                    <div><input type="text" placeholder="Nama..." name="username" class="username"></div>
+                    <div><input type="password" placeholder="Password..." name="password" class="password"></div>
+                </div>
+                <div class="sign_up">
+                	<button class="button_yellow transall">Ayo Gabung</button>
+                </div>
+                <div class="search_bar">
+                	<input type="text" placeholder="search" name="search" class="search" ><img src="img/search.jpg" class="icon_search">
+                </div>
+            </div>
+        </header>
+		<div class = "menucontainer">
+			<a href="#" class = "menu transall"> Beranda </a>
+			<a href="#" class = "menu transall"> Berita </a>
+			<a href="#" class = "menu transall"> SD </a>
+			<a href="#" class = "menu transall"> SMP </a>
+			<a href="#" class = "menu transall"> SMA </a>
+			<a href="#" class = "menu transall"> SMK </a>
+		</div>
+		<div id="main">
+			<div id="sliderContainer">
+			</div>
+			<div class ="newestcontainer">
+				<a href="#" class = "newest transall"> Terbaru </a>
+			</div>
+			<div class ="selectorContainer">
+				<div class="selectorClassSDContainer transall" id="tes">
+					<div id="selectorClassSD">
+						<a href= "#" class = "selector transall">1</a>
+						<a href= "#" class = "selector transall">2</a>
+						<a href= "#" class = "selector transall">3</a>
+						<a href= "#" class = "selector transall">4</a>
+						<a href= "#" class = "selector transall">5</a>
+						<a href= "#" class = "selector transall">6</a>
+					</div>
+					<div id="selectorTitleClassSD" onClick="toggleC('tes');">Kelas</div>
+				</div>
+				<div class="selectorSemesterContainer transall" id="tes2">
+					<div id="selectorSemester">
+						<a href="#" class = "selector transall">1</a>
+						<a href="#" class = "selector transall">2</a>
+					</div>
+					<div id="selectorTitleSemester" onClick="toggleC('tes2');">Semester</div>
+				</div>
+				<div class="selectorMajorContainer transall" id="tes3">
+					<div id="selectorMajor">
+						<a href="#" class = "selector2 transall">IPA</a>
+						<a href="#" class = "selector2 transall">IPS</a>
+						<a href="#" class = "selector2 transall">Bahasa</a>
+					</div>
+					<div id="selectorTitleMajor" onClick="toggleC('tes3');">Jurusan</div>
+				</div>
+			</div>
+			<div id="previewContainer">
+				<div id="previewArticle">
+					<p class = "header">Aljabar</p>
+					<div class ="desc"><p class = "previewText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed magna nulla. Sed egestas condimentum sapien nec vehicula. Nam velit turpis, pulvinar sit amet vulputate auctor, sollicitudin nec sem. Sed fermentum mattis nibh, vel ullamcorper massa laoreet non.
+                     consectetur adipiscing elit. Vestibulum risus turpis, varius in laoreet ac, lacinia a sem. Quisque posuere ultrices ipsum ut consequat. Cras luctus, ante eget sodales tristique, elit odio gravida orci, sed cursus erat felis sit amet diam.</p></div>
+					<div class ="more"><a href="#" class = "previewLink">[...]Selengkapnya</a></div>
+				</div>
+				<div id="previewArticle">
+					<p class = "header">Geometri</p>
+					<div class ="desc"><p class = "previewText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed magna nulla. Sed egestas condimentum sapien nec vehicula. Nam velit turpis, pulvinar sit amet vulputate auctor, sollicitudin nec sem. Sed fermentum mattis nibh, vel ullamcorper massa laoreet non.
+                     consectetur adipiscing elit. Vestibulum risus turpis, varius in laoreet ac, lacinia a sem. Quisque posuere ultrices ipsum ut consequat. Cras luctus, ante eget sodales tristique, elit odio gravida orci, sed cursus erat felis sit amet diam. </p></div>
+					<div class ="more"><a href="#" class = "previewLink">[...]Selengkapnya</a></div>
+				</div>
+				<div id="previewArticle"> 
+					<p class = "header">Hukum Newton</p> 
+					<div class ="desc"><p class = "previewText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed magna nulla. Sed egestas condimentum sapien nec vehicula. Nam velit turpis, pulvinar sit amet vulputate auctor, sollicitudin nec sem. Sed fermentum mattis nibh, vel ullamcorper massa laoreet non.
+                     consectetur adipiscing elit. Vestibulum risus turpis, varius in laoreet ac, lacinia a sem. Quisque posuere ultrices ipsum ut consequat. Cras luctus, ante eget sodales tristique, elit odio gravida orci, sed cursus erat felis sit amet diam. </p></div>
+					<div class ="more"><a href="#" class = "previewLink">[...]Selengkapnya</a></div>
+				</div>
+			</div>
+			<div class = "newsfactswrapper">
+				<div class = "newscontainer">
+					<a href="#" class = "menunf transall"> Berita </a>
+				</div>
+				<div class = "factscontainer">
+					<a href="#" class = "menunf transall"> Fakta </a>
+				</div>
+			</div>
+			<div id = "newsfactsContainer">
+				<div id="previewNewsfacts"> 
+					<p class = "header">Aceng Fikri</p>
+					<div class ="desc"><p class = "previewText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed magna nulla. Sed egestas condimentum sapien nec vehicula. Nam velit turpis, pulvinar sit amet vulputate auctor, sollicitudin nec sem. Sed fermentum mattis nibh, vel ullamcorper massa laoreet non.
+                     consectetur adipiscing elit. Vestibulum risus turpis, varius in laoreet ac, lacinia a sem. Quisque posuere ultrices ipsum ut consequat. Cras luctus, ante eget sodales tristique, elit odio gravida orci, sed cursus erat felis sit amet diam. </p></div>
+					<div class ="more"><a href="#" class = "previewLink">[...]Selengkapnya</a></div>
+				</div>
+				<div id="previewNewsfacts">
+					<p class = "header">Penemu Vitamin</p>
+					<div class ="desc"><p class = "previewText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed magna nulla. Sed egestas condimentum sapien nec vehicula. Nam velit turpis, pulvinar sit amet vulputate auctor, sollicitudin nec sem. Sed fermentum mattis nibh, vel ullamcorper massa laoreet non.
+                     consectetur adipiscing elit. Vestibulum risus turpis, varius in laoreet ac, lacinia a sem. Quisque posuere ultrices ipsum ut consequat. Cras luctus, ante eget sodales tristique, elit odio gravida orci, sed cursus erat felis sit amet diam. </p></div>
+					<div class ="more"><a href="#" class = "previewLink">[...]Selengkapnya</a></div>
+				</div>
+			</div>
+			<div id="tweetbox"> 
+				<p class = "header">Aceng Fikri</p>
+				<div class ="desc"><p class = "previewText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed magna nulla. Sed egestas condimentum sapien nec vehicula. Nam velit turpis, pulvinar sit amet vulputate auctor, sollicitudin nec sem. Sed fermentum mattis nibh, vel ullamcorper massa laoreet non.
+                     consectetur adipiscing elit. Vestibulum risus turpis, varius in laoreet ac, lacinia a sem. Quisque posuere ultrices ipsum ut consequat. Cras luctus, ante eget sodales tristique, elit odio gravida orci, sed cursus erat felis sit amet diam. </p></div>
+				<div class ="more"><a href="#" class = "previewLink">[...]Selengkapnya</a></div>
+			</div>
+		</div>
+	</div>
+	<footer id="footer">
+    	<div class="wave">
+        </div>
+		<div class="footerContainer">
+		</div>
+    </footer>
+</body>
+</html>
