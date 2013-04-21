@@ -1,0 +1,209 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+*{
+  padding:0;
+  margin:0;
+  text-decoration:none;
+  -webkit-user-select:none;
+}
+
+#main_body{
+  position:absolute;
+  height:500px;
+  width:790px;
+  margin-left:200px;
+  padding-left:10px;
+}
+
+.main_body_wrapper{
+  background-color: #87CEFA;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+  text-align: left;
+}
+
+.box{
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.input_box{
+  height: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#left_side{
+  position:relative;
+  float:left;
+  width:20%;
+  padding-top:1.2%;
+  padding-left:5px;
+}
+
+#left_side .input_box{
+  width:140px;
+  margin-top:10px;
+}
+
+#right_side{
+  position:relative;
+  float:left;
+  width:20%;
+  padding-top:1.2%;
+  padding-left:5%;
+}
+
+#picture_box{
+  height: 100px;
+  width: 120px;
+  -webkit-box-shadow: 1px 1px 5px #C0C0C0;
+  -moz-box-shadow: 1px 1px 5px #C0C0C0;
+  box-shadow: 1px 1px 5px #C0C0C0;
+  border: 2px solid #C0C0C0;
+  background-color: #FFFFFF;
+  color: #888888;
+  text-align:center;
+}
+
+#input_form{
+  padding-top:0;
+  padding-bottom:35px;  
+}
+
+.input_tag{
+  position:absolute;
+  float:left;
+  height:20px;
+  margin-top:3px;
+}
+
+#input_form input{
+  width:395px;
+}
+
+.pad_align_input{
+  position:absolute;
+  left:110%;
+}
+
+.separator{
+  position:absolute;
+  float:left;
+  margin-top:2px;
+  left:90%;
+}
+
+.warn_text{
+  clear:both;
+  width:100%;
+  margin-left:410px;
+  padding-top:5px;
+  text-align:right;  
+  color:grey;
+  
+}
+
+#input_form .profil{
+  width:573px;
+  height:100px;
+  margin-top:30px;
+}
+
+.submit_button{
+  background-color:grey;
+}
+
+.submit_button{
+  width:100px;
+  margin-top:5px;
+}
+
+#input_form .submit_button{
+  width:80%;
+  margin-left:445px;
+}
+
+#left_side .submit_button{
+  width:100px;
+}
+
+</style>
+</head>
+<body class="main_body_undef">
+<div id="main_body" class="main_body_wrapper box">
+  <div id="left_side" class="none_undef"> 
+    <div id="picture_box" class="box none_undef ">
+	<img src="temp_undef.jpg" alt="picture undefined">
+	</div>
+	
+	<div id="none_undef" class="none_undef">
+	  <p> Pilih gambar </p>
+	  <input type="text" class="input_box" placeholder="Belum ada gambar"/>
+	  <br>
+	  <button class="submit_button input_box">Simpan</button>
+	</div>
+  </div>
+  
+  <div id="right_side" class="none_undef">
+    <div id="input_form">
+	  <div class="input_tag">Nama</div>
+	  <div class="separator">:</div>
+	  <div class="pad_align_input"><input type="text" class="input_box"></div>
+	</div>
+	
+	<div id="input_form">
+	  <div class="input_tag">Pekerjaan</div>
+	  <div class="separator">:</div>
+	  <div class="pad_align_input"><input type="text" class="input_box"></div>
+	</div>
+	
+	<div id="input_form">
+	  <div class="input_tag">E-mail</div>
+	  <div class="separator">:</div>
+	  <div class="pad_align_input"><input type="text" class="input_box"></div>
+	</div>
+	
+	<div id="input_form">
+	  <div class="input_tag">Password lama</div>
+	  <div class="separator">:</div>
+	  <div class="pad_align_input"><input type="text" class="input_box"></div>
+	</div>
+	
+	<div id="input_form">
+	  <div class="input_tag">Password baru</div>
+	  <div class="separator">:</div>
+	  <div class="pad_align_input"><input type="text" class="input_box"></div>
+	</div>
+	
+	<div id="input_form">
+	  <div class="input_tag">Facebook URL</div>
+	  <div class="separator">:</div>
+	  <div class="pad_align_input"><input type="text" class="input_box"></div>
+	</div>
+	
+	<div id="input_form">
+	  <div class="input_tag">Twitter URL</div>
+	  <div class="separator">:</div>
+	  <div class="pad_align_input"><input type="text" class="input_box"></div>
+	</div>
+	
+	<div id="input_form">
+	  <div class="input_tag">Profil</div>
+	  <div class="separator">:</div>
+	 
+	  <input type="text" class="input_box profil">
+	  <p class="warn_text">Max 160 characters</p>
+	  <button class="submit_button input_box">Simpan Semua</button>
+	 
+	</div>
+	
+  </div>
+</div>
+</body>
+</html>
