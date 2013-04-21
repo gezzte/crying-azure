@@ -37,9 +37,9 @@ header a img{
 {
 	position: relative;
 	z-index: 100;
-	width: 20%;
+	width: 23%;
 	float: right;
-	margin: -37% 8% 0 0;	
+	margin: -44% 0% 0 0;	
 }
 
 .logo
@@ -53,7 +53,7 @@ header a img{
 {
 	width: 100%;
 	border-top-left-radius: 10px;
-	padding: 8px 20px;
+	padding: 3px 20px;
 	border-top-right-radius: 10px;
 	border: rgba(121, 121, 121, 0.38) 1px solid;
 	border-bottom: none;
@@ -72,10 +72,10 @@ header a img{
 	width: 100%;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
-	padding: 8px 20px;
+	padding: 3px 20px;
 	border: rgba(121, 121, 121, 0.38) 1px solid;
 	font: inherit;
-	margin: 0 0 40px 0;
+	margin: 0 0 25px 0;
 }
 
 .sign_up .button_yellow
@@ -100,7 +100,7 @@ header a img{
 .search
 {
 	width: 100%;
-	padding: 7px 20px;
+	padding: 3px 20px;
 	font: inherit;
 	border: rgba(0, 0, 0, 0.34) 1px solid;	
 }
@@ -138,7 +138,7 @@ background-color: #c6e7f0;
 margin: 0% 5px 0% 5px;
 padding: 5px 10px 0% 10px;
 width: 98%;
-height: 364px; 
+height: 246px; 
 border:2px;
 border-radius:10px;
 -moz-border-radius:25px; /* Old Firefox */
@@ -166,13 +166,11 @@ border: #ABD4F1 1px solid;
 float:left;
 color:white;
 width:auto;
-margin-left: 18px;
-margin-right: 18px;
 border:2px;
 border-radius:10px;
 -moz-border-radius:25px; /* Old Firefox */
 position: relative;
-top:-59px;
+top: -52px;
 }
 
 .selectorClassContainer{
@@ -189,13 +187,11 @@ border-radius:10px;
 float:left;
 color:white;
 width:auto;
-margin-right: 46px;
 border:2px;
 border-radius:10px;
 -moz-border-radius:25px; /* Old Firefox */
 position: relative;
-top: -59px
-}
+top: -52px;}
 
 .selectorMajorContainer{
 float:left;
@@ -205,14 +201,13 @@ border:2px;
 border-radius:10px;
 -moz-border-radius:25px; /* Old Firefox */
 position: relative;
-top: -59px
-}
+top: -52px;}
 
 #selectorClassSD{
 float: left;
 background-color: white;
-margin: 0px 30px 0px 3px;
-padding: 10px 10px 10px 25px;
+margin: 0px 18px 0px 3px;
+padding: 10px 10px 10px 17px;
 height: auto;
 border-bottom: 1px solid #D8D8D8;
 border-left: 1px solid #D8D8D8;
@@ -241,8 +236,9 @@ border-bottom-left-radius: 10px;
 #selectorSemester{
 float:left;
 background-color: white;
-padding: 10px 8px 10px 24px;
-width: 105px;
+margin-right: 18px;
+padding: 10px 4px 10px 25px;
+width: 95px;
 height:auto;
 border-bottom: 1px solid #D8D8D8;
 border-left: 1px solid #D8D8D8;
@@ -257,7 +253,7 @@ border-bottom-left-radius: 10px;
 float:left;
 background-color: white;
 padding: 10px 10px 10px 15px;
-width: 363px;
+width: 248px;
 border-bottom: 1px solid #D8D8D8;
 border-left: 1px solid #D8D8D8;
 border-right: 1px solid #D8D8D8;
@@ -272,8 +268,8 @@ box-shadow: 0 0 30px #D8D8D8;
 text-align:center;
 color:white;
 background-color: #FCBB15;
-margin-left: 241px;
-width: 81px;
+margin-left: 153px;
+width: 102px;
 height:28px;
 border-bottom: 1px solid #BDA361;
 border-left:  1px solid #BDA361;
@@ -305,8 +301,8 @@ clear:both;
 text-align:center;
 color:white;
 background-color: rgb(252, 187, 21);
-margin-left: 12px;
-width:80px;
+width: 80px;
+margin-left: 10px;
 height:28px;
 border-bottom:  1px solid #BDA361;
 border-left:  1px solid #BDA361;
@@ -323,8 +319,8 @@ padding: 0 12px;
 text-align:center;
 color:white;
 background-color: rgb(252, 187, 21);
-margin-left: 100%;
-width:80px;
+width: 100px;
+margin-left: 18px;
 height:28px;
 border-bottom:  1px solid #BDA361;
 border-left:  1px solid #BDA361;
@@ -342,8 +338,8 @@ color:black;
 background-color: white;
 margin: 10px 20px 10px 31px;
 padding: 5px 10px 5px 10px;
-height:375px;
-width:345px;
+height: 258px;
+width: 224px;
 border: 1px solid #D8D8D8;
 border-radius:10px;
 -moz-border-radius:25px; /* Old Firefox */
@@ -359,8 +355,8 @@ color:black;
 background-color: white;
 margin: 10px 24px 10px 22px;
 padding: 5px 10px 5px 10px;
-height:375px;
-width:345px;
+height: 258px;
+width: 224px;
 border:2px solid rgb(216,216,216);
 border-radius:10px;
 -moz-border-radius:25px; /* Old Firefox */
@@ -373,8 +369,8 @@ color:black;
 background-color: white;
 margin: 25px 10px 10px 24px;
 padding: 5px 10px 5px 10px;
-height:375px;
-width:350px;
+height: 258;
+width: 224;
 border:2px solid rgb(216,216,216);
 border-radius:10px;
 position: relative;
@@ -390,7 +386,7 @@ body {
 #wrapper {
 	height:auto;
 	min-height:100%;
-	width: 1300px;	
+	width: 920;	
 	background:white;
 	margin: auto;
 }
@@ -405,7 +401,7 @@ header {
 }
 
 header a img{
-	width: 100%;
+	width: 114%;
 	display:block;
 	position:relative;
 }
@@ -577,6 +573,7 @@ text-decoration: none;
 .previewText{
 	padding: 10px;
 	text-align:justify;
+	font-size: 14px;
 }
 
 .icon_search 
@@ -586,11 +583,13 @@ text-decoration: none;
 	top: -26px;
 }
 a.previewLink{
-padding: 10px;
+display: block;
+padding: 0px 10px;
+margin-bottom: 0px;
 }
 
 .desc{
-min-height: 75%;
+min-height: 72.5%;
 }
 
 .more{
@@ -635,9 +634,10 @@ background-color: #d3d3d3;
 .menucontainer
 {
 position: relative;
-width: 90%;
+width: 100%;
 background: rgb(196,231,242);
 margin: -15% auto 0 auto;
+padding-left: 7px;
 color: white;
 background-color: #94BFFF;
 border-radius: 10px;
@@ -652,7 +652,6 @@ float:left;
 color:white;
 margin: 0px 0px 0px 12px;
 padding: 0% 10px 0% 10px;
-width: auto;
 border:2px;
 border-radius:10px;
 -moz-border-radius:25px; /* Old Firefox */
@@ -662,8 +661,9 @@ border-radius:10px;
 {
 float:left;
 color:white;
-margin: 0px 0px 0px 7px;
+margin: 2px 0px 0px 7px;
 padding: 0% 10px 0% 10px;
+width: 77%;
 border:2px;
 border-radius:10px;
 -moz-border-radius:25px; /* Old Firefox */
@@ -679,7 +679,7 @@ color:white;
 {
 float:left;
 color:white;
-margin: 40px 174px 0px 5px;
+margin: 40px 58px 0px 5px;
 padding: 15px 40px 1px 26px;
 border:2px;
 border-radius:10px;
@@ -701,11 +701,10 @@ border-radius:10px;
 {
 float:left;
 color:white;
-background-color: #c6e7f0;
+background-color: #94BFFF;
 margin-left: 1%;
 padding: 5px 1%;
 width:96%;
-max-height:1000px;
 border-radius:10px;
 -moz-border-radius:25px; /* Old Firefox */
 -webkit-transition: all 1s ease;
@@ -740,11 +739,13 @@ width: 100%;
 
 h1.titlesubjarticle{
 display: block;
+font-size: 23px;
 color: rgb(74, 143, 245);
 }
 
 a.titlearticle, a.titlearticle:link, a.titlearticle:visited {
 display: block;
+font-size: 12px;
 }
 
 a.titlearticle:hover {
@@ -784,14 +785,12 @@ border-radius:10px;
 
 a.selector, a.selector:link, a.selector:visited {
 display: inline-block;
-width: 36px;
-height: 36px;
+width: 28;
+height: 28;
 margin: 0px 9px 1px 1px;
-font-size: 20px;
-font-style: bold;
 text-align: center;
 line-height: 180%;
-border-radius: 18px;
+border-radius: 14;
 background: #c3e8f0;
 color: #1571BA;
 }
@@ -803,16 +802,20 @@ color: #c3e8f0;
 
 a.selector2, a.selector2:link, a.selector2:visited {
 display: inline-block;
-width: 100px;
-height: 36px;
-margin: 0px 1px 0px 12px;
-font-size: 20px;
-font-style: bold;
+width: 70px;
+height: 30px;
+margin: -1px 1px 0px 6px;
 
+border-radius: 40px;
 text-align: center;
+<<<<<<< HEAD
 line-height: 36px;
+=======
+line-height: 31px;
+>>>>>>> main.css
 border-radius: 18px;
 
+line-height: 30px;
 background: #c3e8f0;
 color: #1571BA;
 }
@@ -828,10 +831,10 @@ float: left;
 background: url(../img/menu.png) no-repeat;
 background-size: cover;
 text-align: center;
-width: 146px;
+width: 122px;
 height: 88px;
-margin: -5px 24px 0px 24px;      
-padding-top: 40px;
+margin: -5px 15px 0px 15px;      
+padding-top: 28px;
 position: relative;  
 top: -11px;
 color: white;
@@ -868,7 +871,7 @@ a.newest, a.newest:link, a.newest:visited {
 float: left;
 background: url(../img/menu.png) no-repeat;
 background-size: cover;
-width: 147;
+width: 140;
 height: 104px;
 
 margin-left: 2%;
@@ -915,9 +918,9 @@ background-color: #66A3FF;
 {
 float:left;
 color:white;
-background-color: #94BFFF;
-margin: 10px 1%;
-padding: 5px 1%;
+background-color: #c6e7f0;
+margin: -6% 1% 5%;
+padding: 0px 1%;
 width:96%;
 border-radius:10px;
 -moz-border-radius:25px; /* Old Firefox */
@@ -934,7 +937,7 @@ width: 100%;
 display:block;
 float:left;
 margin-top: 3.3%;
-width: 70%;
+width: 65%;
 max-width: 100%;
 padding: 0 0 1px 4px;
 font-size: 14px;
@@ -961,7 +964,7 @@ min-width: 13px;
 
 h1.searchbox{
 float:left;
-margin: 3% 24px 0 3%;
+margin: 2.4% 24px 0 3%;
 }
 
 a.searchbtn,a.searchbtn:link, a.searchbtn:visited 

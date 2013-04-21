@@ -3,7 +3,7 @@
 function toggleC(id)
 {
 	var topp = document.getElementById(id).style.top;
-	if (topp == "-59px" ){
+	if (topp == "-52px" ){
 		showC(id);
 	}
 	else {
@@ -17,5 +17,5 @@ function showC (id)
 
 function hideC (id)
 {
-	document.getElementById(id).style.top = "-59px";	
+	document.getElementById(id).style.top = "-52px";	
 }
